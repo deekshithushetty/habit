@@ -19,7 +19,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174'], // Allowed origins
+  origin: ['http://localhost:5173', 'http://localhost:5174', 'https://taskflow-client.onrender.com'], 
   credentials: true
 }));
 app.use(express.json());
